@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Custom Toolbar Style -->
+    <style name="CustomToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="android:popupTheme">@style/CustomPopupTheme</item>
+    </style>
+
+    <!-- Custom Popup Theme -->
+    <style name="CustomPopupTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorControlNormal">@color/black</item> <!-- Set the color you want -->
+    </style>
+
+</resources>
